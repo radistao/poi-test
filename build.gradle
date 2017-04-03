@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.25'
+    compile 'org.apache.poi:poi:3.15'
+
+    compile 'org.apache.poi:poi-ooxml:3.15'
+    compile 'fr.opensagres.xdocreport:org.apache.poi.xwpf.converter.pdf:1.0.6'
+
+    compile 'org.apache.poi:poi-scratchpad:3.15'
+
+    testCompile 'junit:junit:4.12'
+}
